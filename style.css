@@ -1,0 +1,107 @@
+body{
+    height: 100hv;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+	padding: 0%;
+}
+.home-page{
+    border: 2px #5c757d;
+    .content{
+        border-top: 2px #5c757d;
+    }
+    ul li a.active {
+	background-color: #5c757d;
+	color: white;
+    }
+}
+.about-page{
+    border: 2px #5a7d9a;
+    .content{
+        border-top: 2px #5a7d9a;
+    }
+    ul li a.active {
+	background-color: #5a7d9a;
+	color: white;
+    }
+}
+.services-page{
+    border: 2px #495057;
+    .content{
+        border-top: 2px #495057;
+    }
+    ul li a.active {
+	background-color: #495057;
+	color: white;
+    }
+}
+.contact-page{
+    border: 2px #343a40;
+    .content{
+        border-top: 2px #343a40;
+    }
+    ul li a.active {
+	background-color: #343a40;
+	color: white;
+    }
+}
+
+h1{
+    text-align: center;
+}
+p{
+    line-height: 1.6;
+    text-align: justify;
+}
+
+img{
+    border-radius: 75%;
+    object-fit: cover; 
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+ ul li a{
+    display: block;
+    text-align: center;
+	padding: 16px 18px;
+    text-decoration: none;
+ }
+ ul li a:hover {
+	background-color: ;
+	color: ;
+}
+
+.header{
+    margin-bottom: 20px;
+}
+.main{
+    display: flex;
+}
+
+.content{
+    height: 400px;
+    width: 200px;
+    overflow-y: auto;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    margin-top: 20px;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
